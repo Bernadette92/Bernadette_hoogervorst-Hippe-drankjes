@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@200&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="Styles.css">
+    <title> Meld je aan voor de newsletter </title>
+
+</head>
+
+<body>
+    <header>
+        <ul class="Menu">
+            <li> <a href="Index.html"> Home </a> </li>
+            <li> <a href="Recepten.HTML"> Recepten </a> </li>
+            <li> <a href="Reviews.html"> Reviews </a> </li>
+            <li> <a href="About.html"> About </a> </li>
+        </ul>
+        <h1 class="Menu">Aanmelden voor de nieuwsletter</h1>
+    </header>
+    <main>
+        <form name="newsletter" method="POST" data-netlify="true">
+            <label> Name:</label><br>
+            <input type="text" name="fname"><br>
+            <label for="email">E-mail</label><br>
+            <input type="email" name="E-mail"><br>
+            <br>
+            <div>Aanmelden voor:</div>
+            <input type="checkbox" name="Newsletter" unchecked>
+            <label for="Newsletter">Newsletter</label><br>
+            <input type="checkbox" name=" Acties " unchecked>
+            <label for="Acties ">Acties </label><br>
+            <input type="checkbox" name="Recepten" unchecked>
+            <label for="Recepten">Recepten</label><br>
+            <input type="checkbox" name="Reviews" unchecked>
+            <label for="Reviews">Reviews</label><br>
+
+
+            <input type="checkbox" name="Website updates" unchecked>
+            <label for="Website updates ">Website updates </label><br>
+            <br>
+
+            <input type="submit" value="Aanmelden">
+
+
+        </form>
+    </main>
+    <footer>
+        <p>Terug naar de homepage:</p>
+        <a href="index.html">Homepage</a>
+    </footer>
+
+
+</body>
+
+</html>

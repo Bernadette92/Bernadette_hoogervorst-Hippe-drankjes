@@ -1,0 +1,238 @@
+
+.Menu{
+    border: 5px solid darkblue;
+    margin-top: auto;
+    margin-bottom: 0px;
+        display: flex ;
+    flex-direction: column;
+    list-style-type: none;
+    justify-content: space-around;
+    background-color: darkblue;
+    color: whitesmoke;
+    padding: 20px;
+    font-weight: bolder;
+    font-size: 25px;
+    font-family: 'Courier New', Courier, monospace;
+
+    
+}
+
+.pagetitle {
+padding-left: 90px;
+}
+
+.box h1 {
+    padding-left: 0px;
+
+}
+a {
+    color: whitesmoke;
+  }
+
+a:visited {
+    color: pink;
+  }
+
+  .container img {
+    border-radius: 1%;
+    width: 70%;
+    height: 85%;
+  } .container1 img {
+    border-radius: 1%;
+    width: 60%;
+    height: 55%;
+} .container2 img {
+    border-radius: 1%;
+    width: 50%;
+    height: 45%;
+  } 
+
+
+
+  .container{
+display: flex;
+flex-direction: column    ;  
+font-family: 'Roboto Slab', serif;
+
+    }
+
+
+    .container1 {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        margin: 50px;
+        font-family: 'Roboto Slab', serif;
+
+    }
+
+        .container2 {
+            display: flex;
+            justify-content: space-around;
+            margin: 50px;
+            font-family: 'Roboto Slab', serif;
+
+
+     }
+
+     .cappuchino {
+        border: 5px solid rgb(107, 107, 187);
+        border-radius: 1%;
+        padding: 10px;
+        background-color: rgb(245, 245, 245);
+        justify-self: end ;
+        margin: 10px;
+        border-radius: 1%;
+        width: 90%;
+        height: 85%;
+
+
+
+        
+     }
+
+
+    .Americano {
+        border: 5px solid rgb(107, 107, 187);
+        border-radius: 1%;
+        padding: 10px;
+        background-color: rgb(245, 245, 245);
+        justify-self: end ;
+        margin: 10px;
+        border-radius: 1%;
+        width: 90%;
+        height: 85%;
+
+    }
+
+    .places {
+        border: 5px solid rgb(107, 107, 187);
+        border-radius: 1%;
+        padding: 10px;
+        background-color: rgb(245, 245, 245);
+        justify-self: end ;
+        margin: 10px;
+        border-radius: 1%;
+        width: 90%;
+        height: 85%;
+   }
+
+
+    footer {
+        grid-area: f;
+        background-color: darkblue;
+        color: whitesmoke;
+        padding: 25px 50px;
+        font-size: 20px;
+        font-family: 'Courier New', Courier, monospace;
+
+    }
+
+    form {
+        padding: 30px;
+        font-family: 'Roboto Slab', serif;
+
+    }
+
+    .box {
+        font-family: 'Roboto Slab', serif;
+padding-left: 100px;
+    }
+    
+
+    @media (min-width: 1024px) {
+
+        .Menu {
+            display: flex ;
+            flex-direction: row;
+    }
+    .container h1 {
+        margin: 0px;
+
+    }
+    .container{
+        
+        display: grid;
+                background-color: #E6E6FA;
+  
+        grid-template-columns: 10% 40% 40% 20%  ;
+        grid-template-rows:  300px 300px ;
+        height: 700px;
+        padding: 50px;
+        grid-gap: 20px;
+            grid-template-areas:
+        " . c  p . " 
+        " . c  a . "
+      ;  
+      }
+
+      .cappuchino {
+        border: 5px solid rgb(107, 107, 187);
+        grid-area: c;
+        justify-self: end ;
+        border-radius: 1%;
+        padding: 5%;
+        background-color: rgb(245, 245, 245);
+        max-width: 100%;
+        max-height: 100%;
+      }
+.container1 .cappuchino {
+    padding: 2%;
+    font-size: smaller;
+
+
+}
+
+    .Americano {
+        border: 5px solid rgb(107, 107, 187);
+        grid-area: a;
+        justify-self: start ;
+        font-size: smaller;
+        border-radius: 1%;
+        background-color: rgb(245, 245, 245);
+        padding: 2%;
+    }
+
+    
+
+    .places {
+        border: 5px solid rgb(107, 107, 187);
+        grid-area: p;
+        font-size: smaller;
+        justify-self: start ;
+        border-radius: 1%;
+        background-color: rgb(245, 245, 245);
+        padding: 2%;
+
+   }
+   .Espresso {
+    border: 5px solid darkblue;
+
+    grid-area: e;
+    justify-self: center;
+}
+
+
+    .alternatives {
+        grid-area: a1;
+    }
+
+    footer {
+        grid-area: f;
+        background-color: darkblue;
+        color: whitesmoke;
+        padding: 25px 50px;
+        font-size: 20px;
+        font-family: 'Courier New', Courier, monospace;
+
+    }
+    .container1 {
+flex-direction: row;    }
+
+    }
+
+
+
+    
+
+    
